@@ -206,7 +206,8 @@
                 loop:true,
                 strings: [
                   'Designer',
-                  'Developer'
+                  'Developer',
+                  'Dreamer'
                 ],
                 breakLines: false
             }); 
