@@ -1068,10 +1068,11 @@ main {
   .feature-box-04 h5 {
     margin: 5px;
     color: #fff;
-    font-weight: 400; }
+    font-weight: 400; 
+    text-align: center;}
     .white-theme .feature-box-04 h5 {
       color: #292929; }
-
+  
 /* portfolio Section
 -------------------------------*/
 .portfolio-box-01 {
