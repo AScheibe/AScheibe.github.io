@@ -205,8 +205,8 @@
                 speed: 200,
                 loop:true,
                 strings: [
-                  'Designer',
                   'Developer',
+                  'Designer',
                   'Dreamer'
                 ],
                 breakLines: false
