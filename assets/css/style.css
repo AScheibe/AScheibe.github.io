@@ -1,19 +1,4 @@
-/*------------------------------------------------------------------
-[Table of contents]
 
-1. Body
-2. Header
-3. Footer
-4. Blog
-5. Section
-6. Home Banner
-7. About
-8. Services
-9. Portfolio
-10. Testimonial
-11. Contact Us
-
--------------------------------------------------------------------*/
 @import url(../vendor/bootstrap/css/bootstrap.min.css);
 @import url(../vendor/bootstrap/icons/bootstrap-icons.css);
 @import url(../vendor/owl-carousel/css/owl.carousel.min.css);
@@ -1509,6 +1494,7 @@ main {
 
 .portfolio-box-01 .portfolio-info h5 {
   color: #fff;
+  background-color: black;
 }
 
 .portfolio-box-01:hover .portfolio-img img {
@@ -1516,50 +1502,9 @@ main {
   transform: scale(1.05);
 }
 
-/* Blog Section
--------------------------------*/
-.blog-post {
-  position: relative;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 15px;
-  overflow: hidden;
-  margin-bottom: 30px;
-}
 
-.white-theme .blog-post {
-  border: 1px solid rgba(41, 41, 41, 0.1);
-}
 
-.blog-post .blog-post-info {
-  padding: 15px;
-}
 
-.blog-post .b-meta {
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  background: linear-gradient(to left, #12c2e9, #c471ed, #f64f59);
-  background-size: 150% 100%;
-  color: #fff;
-  padding: 5px 15px;
-  border-radius: 5px;
-}
-
-.blog-post h5 {
-  margin-bottom: 8px;
-}
-
-.blog-post h5 a {
-  color: #fff;
-}
-
-.white-theme .blog-post h5 a {
-  color: #292929;
-}
-
-.blog-post .link-effect {
-  font-size: 13px;
-}
 
 .contact-name-01 {
   border: 1px solid rgba(255, 255, 255, 0.1);
