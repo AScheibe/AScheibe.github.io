@@ -60,7 +60,7 @@ function send_mail() {
         crossOrigin: true,
         url: "process_form.php",
         data: data,
-        success: function(response) {
+        success: function (response) {
             if (response == '1') {
                 jQuery('#suce_message').show();
                 jQuery("#contact-form")[0].reset();
