@@ -149,17 +149,6 @@
                 layoutMode: 'masonry',
                 filter: '*'
               });
-              //Filtering items on portfolio.html
-              var portfolioFilter = $('.filter li');
-              // filter items on button click
-              $(portfolioFilter).on( 'click', function() {
-                var filterValue = $(this).attr('data-filter');
-                portfolioWork.isotope({ filter: filterValue });
-              });
-              //Add/remove class on filter list
-              $(portfolioFilter).on( 'click', function() {
-                $(this).addClass('active').siblings().removeClass('active');
-              });
           }
         });
       }
