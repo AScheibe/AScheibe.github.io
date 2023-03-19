@@ -1,4 +1,7 @@
 function send_mail() {
+    jQuery('#err_message').show();
+
+    /*
     var name = jQuery("#name").val();
     var email = jQuery("#email").val();
     var subject = jQuery("#subject").val();
@@ -61,6 +64,7 @@ function send_mail() {
         url: "process_form.php",
         data: data,
         success: function (response) {
+            
             if (response == '1') {
                 jQuery('#suce_message').show();
                 jQuery("#contact-form")[0].reset();
@@ -69,5 +73,6 @@ function send_mail() {
             }
         }
     });
+    */
 
 }
